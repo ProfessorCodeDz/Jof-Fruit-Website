@@ -1,0 +1,47 @@
+.lemon{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   overflow: hidden;
+}
+.lemon .lemon-text{
+    width: 400px; 
+}
+.lemon .lemon-text h2{
+    font-size: 75px;
+    font-weight: 700;
+    color: #5293b7;
+    padding: 0;
+    margin-top: 50px;
+}
+.lemon .lemon-text p{
+    margin: 20px 0px;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 28px;
+    color: #333;
+}
+.lemon .lemon-text .lemon-btn{
+    background: #282e40;
+    color: #fff;
+    padding: 0;
+    float: left;
+    font-size: 20px;
+    font-weight: 300;
+    border-radius: 0;
+    margin-right: 0;
+    width: 220px;
+    height: 65px;
+    text-align: center;
+    line-height: 65px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+.lemon .lemon-text .lemon-btn:hover{
+    background: #5293b7;
+    color: #fff;
+}
+.lemon .img{
+    width: 50%;
+}

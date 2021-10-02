@@ -1,0 +1,56 @@
+/*header*/
+.header {
+    width: 100%;
+    height: 120px;
+}
+
+.header .top-header{
+    width: 80%;
+    height: 20px;
+    background-color: #282e40;
+    position: relative;
+}
+
+.header .top-header::after{
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: calc(20px / 2) solid #282e40;
+    border-left: calc(20px / 2) solid #282e40;
+    border-bottom: calc(20px / 2) solid transparent;
+    border-right: calc(20px / 2) solid transparent;
+    position: absolute;
+    top: 0;
+    right: -20px;
+}
+
+.header nav{
+    max-width: 70%;
+    height: 55px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header nav .logo{
+    height: 100%;
+}
+
+.header nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #666666;
+    cursor: pointer;
+}
+header nav ul li a:hover{
+    color: #639ebe;
+}

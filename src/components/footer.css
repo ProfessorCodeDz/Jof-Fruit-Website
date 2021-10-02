@@ -1,0 +1,82 @@
+.footer{
+    width: 100%;
+    background: #282e40;
+    padding-top: 30px;
+}
+.footer .container{
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+.footer .container>div{
+    width: 25%;
+    margin: 10px;
+}
+.footer .container>div h3{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 35px;
+}
+.footer .container .contact-footer p{
+    color: #fff;
+    font-size: 17px;
+    line-height: 30px;
+    float: left;
+    font-weight: 300;
+}
+.footer .container .pages-footer p{
+    font-size: 17px;
+    line-height: 30px;
+    float: left;
+}
+.footer .container .pages-footer p a{
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 300;
+}
+.footer .container .pages-footer p a:hover{
+    color: #12c6f4;
+}
+.footer .posts-footer .footer-post{
+    margin-bottom: 20px;
+}
+.footer .posts-footer .footer-post p{
+    font-size: 15px;
+    line-height: 24px;
+    color: #fff;
+    font-weight: 300;
+    width: 90%;
+}
+.footer .newsletter-footer form input{
+    width: 100%;
+    height: 48px;
+    background: #fff;
+    border: none;
+    padding: 0 20px;
+    margin-bottom: 20px;
+    outline: none;
+}
+.footer .newsletter-footer form button{
+    background: #12c6f4;
+    width: 95px;
+    height: 48px;
+    cursor: pointer;
+    border: none;
+}
+.footer .copyright{
+    background-color: #046882;
+    padding: 15px 0px;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.footer .copyright p{
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    width: 100%;
+    font-weight: 300;
+}
